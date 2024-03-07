@@ -1,0 +1,31 @@
+.error-message {
+    color: red;
+    display: none; /* Los mensajes de error estarán ocultos inicialmente */
+}
+.success-message {
+    color: green;
+    display: none; /* El mensaje de éxito estará oculto inicialmente */
+}
+.form-group {
+    margin-bottom: 20px; /* Agregar margen entre los grupos de formulario */
+}
+#main-container {
+    display: flex;
+    align-items: stretch;
+    height: 400px; /* Aumentamos la altura del contenedor principal */
+}
+#color-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.color-option {
+    width: 80px; /* Aumentamos el ancho de los cuadros pequeños */
+    height: calc(100% / 6); /* División del 100% del alto total entre 6 elementos */
+    cursor: pointer;
+}
+#main-box {
+    width: 400px; /* Aumentamos el ancho del cuadro grande */
+    height: 100%; /* El cuadro grande ocupará toda la altura disponible */
+    border: 2px solid black; /* Aumentamos el grosor del borde */
+}
